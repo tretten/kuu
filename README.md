@@ -1,10 +1,12 @@
-# Kuu
+<h1 align="center">Kuu</h1>
 
-A minimal native macOS terminal. Real login shells on a Metal surface — windows, tabs, themes, and one plain config file.
+<p align="center">
+  <img src="logo.png" width="128" alt="Kuu app icon">
+</p>
 
-[![Latest release](https://img.shields.io/github/v/release/tretten/kuu)](https://github.com/tretten/kuu/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-15.6%2B-blue)](https://github.com/tretten/kuu/releases/latest)
-[![Signed & notarized](https://img.shields.io/badge/signed%20%26%20notarized-yes-green)](https://github.com/tretten/kuu/releases/latest)
+<p align="center">
+  A minimal native macOS terminal. Real login shells on a Metal surface — windows, tabs, themes, and one plain config file.
+</p>
 
 <p align="center">
   <a href="https://github.com/tretten/kuu/releases/latest/download/Kuu.dmg">
@@ -12,7 +14,11 @@ A minimal native macOS terminal. Real login shells on a Metal surface — window
   </a>
 </p>
 
-<img src="logo.png" width="128" alt="Kuu app icon">
+<p align="center">
+  <a href="https://github.com/tretten/kuu/releases/latest"><img src="https://img.shields.io/github/v/release/tretten/kuu" alt="Latest release"></a>
+  <a href="https://github.com/tretten/kuu/releases/latest"><img src="https://img.shields.io/badge/macOS-15.6%2B-blue" alt="macOS"></a>
+  <a href="https://github.com/tretten/kuu/releases/latest"><img src="https://img.shields.io/badge/signed%20%26%20notarized-yes-green" alt="Signed & notarized"></a>
+</p>
 
 ## Features
 
