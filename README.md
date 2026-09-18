@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  A minimal native macOS terminal. Real login shells on a Metal surface — windows, tabs, themes, and one plain config file.
+  A minimal native macOS terminal. Real login shells on a Metal surface: windows, tabs, themes, and one plain config file.
 </p>
 
 <p align="center">
@@ -46,13 +46,13 @@ The cask clears the quarantine flag automatically.
 
 **Manual install:** download `Kuu.dmg` from [Releases](https://github.com/tretten/kuu/releases/latest) and drag `Kuu.app` to Applications. Builds are signed with a Developer ID certificate and notarized, so they open with no Gatekeeper warnings.
 
-Updates arrive automatically via Sparkle — no need to re-download.
+Updates arrive automatically via Sparkle. No need to re-download.
 
 ## Configure
 
 Everything lives in one plain file: `~/.config/kuu/config.yml`.
 
-Edit it in any text editor, then press ⌘⇧, inside Kuu to reload — no restart needed.
+Edit it in any text editor, then press ⌘⇧, inside Kuu to reload. No restart needed.
 
 ## Keyboard shortcuts
 
@@ -72,7 +72,7 @@ Kuu runs entirely on your Mac, with no account and no telemetry. The only connec
 ## FAQ
 
 **macOS refuses to open the app?**
-Only download builds from the [Releases](https://github.com/tretten/kuu/releases/latest) page — they are signed and notarized, so Gatekeeper stays quiet.
+Only download builds from the [Releases](https://github.com/tretten/kuu/releases/latest) page. They are signed and notarized, so Gatekeeper stays quiet.
 
 **How do I uninstall?**
 Delete `Kuu.app` from Applications. Optionally remove `~/.config/kuu` to clear settings.
@@ -82,7 +82,7 @@ File an issue with your macOS version, Kuu version (from the About window), and 
 
 ## License
 
-MIT — Kuu builds on [Ghostty](https://ghostty.org) (also MIT).
+MIT. Kuu builds on [Ghostty](https://ghostty.org) (also MIT).
 
 ---
 
