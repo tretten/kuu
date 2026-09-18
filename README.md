@@ -1,12 +1,18 @@
-<h1 align="center">Kuu</h1>
+# Kuu
+
+A minimal native macOS terminal. Real login shells on a Metal surface — windows, tabs, themes, and one plain config file.
+
+[![Latest release](https://img.shields.io/github/v/release/tretten/kuu)](https://github.com/tretten/kuu/releases/latest)
+[![macOS](https://img.shields.io/badge/macOS-15.6%2B-blue)](https://github.com/tretten/kuu/releases/latest)
+[![Signed & notarized](https://img.shields.io/badge/signed%20%26%20notarized-yes-green)](https://github.com/tretten/kuu/releases/latest)
 
 <p align="center">
-  A small native macOS terminal. Real login shells on a Metal surface, tabs, color themes, and settings in one config file.
+  <a href="https://github.com/tretten/kuu/releases/latest/download/Kuu.dmg">
+    <img src="download-macos.svg" width="260" alt="Download for macOS">
+  </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/tretten/kuu/releases/latest/download/Kuu.dmg">Download Kuu for macOS</a>
-</p>
+<img src="logo.png" width="128" alt="Kuu app icon">
 
 ## Features
 
@@ -17,29 +23,61 @@
 - Font family, size, weight, and line height, plus per-tab zoom (⌘+, ⌘−, ⌘0).
 - Find in scrollback with ⌘F; terminal links open in your browser.
 - Window padding, starting position, and character-grid size.
-- Settings live in a plain file at ~/.config/kuu/config.yml. Edit it by hand and press ⌘⇧, to reload.
-
-## Privacy
-
-Kuu runs entirely on your Mac, with no account and no telemetry. The only connection it makes is the automatic update check (Sparkle).
+- Settings live in a plain file at `~/.config/kuu/config.yml`. Edit it by hand and press ⌘⇧, to reload.
 
 ## Install
 
-No public builds are published yet. Once the first release is out, two options will work.
+Requires macOS 15.6 or later.
 
-Homebrew (recommended):
+**Homebrew (recommended):**
 
-```bash
+```sh
 brew tap tretten/kuu
 brew install --cask kuu
 ```
 
 The cask clears the quarantine flag automatically.
 
-Manual install: download Kuu.dmg from [Releases](https://github.com/tretten/kuu/releases) and drag Kuu.app to Applications. Builds are signed with a Developer ID certificate and notarized, so they open with no Gatekeeper warnings.
+**Manual install:** download `Kuu.dmg` from [Releases](https://github.com/tretten/kuu/releases/latest) and drag `Kuu.app` to Applications. Builds are signed with a Developer ID certificate and notarized, so they open with no Gatekeeper warnings.
 
-Requires macOS 15.6 or later.
+Updates arrive automatically via Sparkle — no need to re-download.
+
+## Configure
+
+Everything lives in one plain file: `~/.config/kuu/config.yml`.
+
+Edit it in any text editor, then press ⌘⇧, inside Kuu to reload — no restart needed.
+
+## Keyboard shortcuts
+
+| Action | Shortcut |
+|---|---|
+| New window | ⌘N |
+| New tab | ⌘T |
+| Close tab / window | ⌘W |
+| Zoom in / out / reset | ⌘+ / ⌘− / ⌘0 |
+| Find in scrollback | ⌘F |
+| Reload config | ⌘⇧, |
+
+## Privacy
+
+Kuu runs entirely on your Mac, with no account and no telemetry. The only connection it makes is the automatic update check (Sparkle).
+
+## FAQ
+
+**macOS refuses to open the app?**
+Only download builds from the [Releases](https://github.com/tretten/kuu/releases/latest) page — they are signed and notarized, so Gatekeeper stays quiet.
+
+**How do I uninstall?**
+Delete `Kuu.app` from Applications. Optionally remove `~/.config/kuu` to clear settings.
+
+**Something looks off?**
+File an issue with your macOS version, Kuu version (from the About window), and steps to reproduce.
+
+## License
+
+MIT — Kuu builds on [Ghostty](https://ghostty.org) (also MIT).
 
 ---
 
-This repository holds only signed release builds (DMG/ZIP) for the auto-update feed. It does not contain source code.
+This repository hosts the signed release builds (DMG/ZIP) for the auto-update feed. It does not contain source code.
