@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tretten/kuu/releases/latest/download/Kuu-macos.zip">Download Kuu for macOS</a>
+  <a href="https://github.com/tretten/kuu/releases/latest/download/Kuu.dmg">Download Kuu for macOS</a>
 </p>
 
 ## Features
@@ -36,10 +36,10 @@ brew install --cask kuu
 
 The cask clears the quarantine flag automatically.
 
-Manual install: download Kuu-macos.zip from [Releases](https://github.com/tretten/kuu/releases), move Kuu.app to Applications, then right-click it and choose Open once. The app is self-signed rather than notarized, so Gatekeeper stops the first launch until you do.
+Manual install: download Kuu.dmg from [Releases](https://github.com/tretten/kuu/releases) and drag Kuu.app to Applications. Builds are signed with a Developer ID certificate and notarized, so they open with no Gatekeeper warnings.
 
 Requires macOS 15.6 or later.
 
 ---
 
-This repository holds only signed release builds (ZIP) for the auto-update feed. It does not contain source code.
+This repository holds only signed release builds (DMG/ZIP) for the auto-update feed. It does not contain source code.
