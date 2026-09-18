@@ -25,6 +25,8 @@ Kuu runs entirely on your Mac, with no account and no telemetry. The only connec
 
 ## Install
 
+No public builds are published yet. Once the first release is out, two options will work.
+
 Homebrew (recommended):
 
 ```bash
