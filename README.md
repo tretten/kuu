@@ -82,7 +82,7 @@ File an issue with your macOS version, Kuu version (from the About window), and 
 
 ## License
 
-MIT. Kuu builds on [Ghostty](https://ghostty.org) (also MIT).
+MIT. Kuu builds on [Ghostty](https://ghostty.org) (also MIT), with code adapted from [0x96f/justty](https://github.com/0x96f/justty) and [tretten/screenkit](https://github.com/tretten/screenkit).
 
 ---
 
