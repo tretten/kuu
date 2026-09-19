@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  A minimal native macOS terminal. Real login shells on a Metal surface: windows, tabs, themes, and one plain config file.
+  A fast, native macOS terminal with real Settings panes. Real login shells on a Metal surface, no account, no telemetry.
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@
 - Font family, size, weight, and line height, plus per-tab zoom (⌘+, ⌘−, ⌘0).
 - Find in scrollback with ⌘F; terminal links open in your browser.
 - Window padding, starting position, and character-grid size.
-- Settings live in a plain file at `~/.config/kuu/config.yml`. Edit it by hand and press ⌘⇧, to reload.
+- Native Settings panes for theme, font, window, and updates — plus a plain config file if you prefer text.
 
 ## Install
 
@@ -50,9 +50,7 @@ Updates arrive automatically via Sparkle. No need to re-download.
 
 ## Configure
 
-Everything lives in one plain file: `~/.config/kuu/config.yml`.
-
-Edit it in any text editor, then press ⌘⇧, inside Kuu to reload. No restart needed.
+Prefer text over clicking? The same settings live in `~/.config/kuu/config.yml`. Edit it in any text editor, then press ⌘⇧, inside Kuu to reload. No restart needed.
 
 ## Keyboard shortcuts
 
