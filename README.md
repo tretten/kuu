@@ -4,8 +4,12 @@
   <img src="logo.png" width="128" alt="Kuu app icon">
 </p>
 
+<p align="center"  style="text-wrap: balance;">
+  A fast, native macOS terminal with real Settings panes.<br>Real login shells on a Metal surface, no account, no telemetry.
+</p>
+
 <p align="center">
-  A fast, native macOS terminal with real Settings panes. Real login shells on a Metal surface, no account, no telemetry.
+  <img src="kuu-1.png" width="899" alt="Kuu app">
 </p>
 
 <p align="center">
@@ -26,14 +30,28 @@
 - Windows and tabs (⌘N / ⌘T / ⌘W), with scroll arrows when tabs overflow and an optional full-height vertical tab rail.
 - Tab titles show the running command with a directory prefix. Closing a tab with a running process asks for confirmation first.
 - Color themes from the GhosttyTheme catalog, in light and dark.
+- Ability to set a different theme per tab.
+- Pinned tabs, renaming tabs, color-coded tabs.
 - Font family, size, weight, and line height, plus per-tab zoom (⌘+, ⌘−, ⌘0).
 - Find in scrollback with ⌘F; terminal links open in your browser.
 - Window padding, starting position, and character-grid size.
-- Native Settings panes for theme, font, window, and updates — plus a plain config file if you prefer text.
+- Plus a plain config file if you prefer text.
+
+<p align="center">
+  <img src="kuu-2.png" width="899" alt="Kuu app"> <br>
+  <img src="kuu-3.png" width="899" alt="Kuu app">
+</p>
 
 ## Install
-
 Requires macOS 15.6 or later.
+
+**Manual install:** download `Kuu.dmg` from [Releases](https://github.com/tretten/kuu/releases/latest) and drag `Kuu.app` to Applications. Builds are signed with a Developer ID certificate and notarized, so they open with no Gatekeeper warnings.
+
+<p align="center">
+  <img src="kuu-installation.png" width="596" alt="Kuu installation">
+</p>
+
+Updates arrive automatically via Sparkle. No need to re-download.
 
 **Homebrew (recommended):**
 
@@ -41,15 +59,14 @@ Requires macOS 15.6 or later.
 brew tap tretten/kuu
 brew install --cask kuu
 ```
-
 The cask clears the quarantine flag automatically.
 
-**Manual install:** download `Kuu.dmg` from [Releases](https://github.com/tretten/kuu/releases/latest) and drag `Kuu.app` to Applications. Builds are signed with a Developer ID certificate and notarized, so they open with no Gatekeeper warnings.
-
-Updates arrive automatically via Sparkle. No need to re-download.
-
 ## Configure
+Open Settings (`⌘,`) for four tabs: General, Shortcuts, Appearance, About.
 
+<p align="center">
+  <img src="kuu-settings.png" width="596" alt="Kuu settings">
+</p>
 Prefer text over clicking? The same settings live in `~/.config/kuu/config.yml`. Edit it in any text editor, then press ⌘⇧, inside Kuu to reload. No restart needed.
 
 ## Keyboard shortcuts
@@ -65,7 +82,7 @@ Prefer text over clicking? The same settings live in `~/.config/kuu/config.yml`.
 
 ## Privacy
 
-Kuu collects nothing and sends nothing anywhere. The only network connection is the Sparkle update check, and you can turn that off in Settings → About.
+Kuu collects nothing and sends nothing anywhere. The only network connection is the Sparkle update check, and you can turn that off in `Settings → About`.
 
 ## FAQ
 
@@ -84,4 +101,4 @@ MIT ([LICENSE](LICENSE)). Kuu builds on [Ghostty](https://ghostty.org) (also MIT
 
 ---
 
-This repository hosts the signed release builds (DMG/ZIP) for the auto-update feed. It does not contain source code.
+This repository hosts the signed release builds (DMG/ZIP) for the auto-update feed.
