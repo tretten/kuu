@@ -67,7 +67,7 @@ Edit it in any text editor, then press ⌘⇧, inside Kuu to reload. No restart 
 
 ## Privacy
 
-Kuu runs entirely on your Mac, with no account and no telemetry. The only connection it makes is the automatic update check (Sparkle).
+Kuu collects nothing and sends nothing anywhere. The only network connection is the Sparkle update check, and you can turn that off in Settings → About.
 
 ## FAQ
 
@@ -82,7 +82,7 @@ File an issue with your macOS version, Kuu version (from the About window), and 
 
 ## License
 
-MIT. Kuu builds on [Ghostty](https://ghostty.org) (also MIT), with code adapted from [0x96f/justty](https://github.com/0x96f/justty) and [tretten/screenkit](https://github.com/tretten/screenkit).
+MIT ([LICENSE](LICENSE)). Kuu builds on [Ghostty](https://ghostty.org) (also MIT), with code adapted from [0x96f/justty](https://github.com/0x96f/justty) and [tretten/screenkit](https://github.com/tretten/screenkit).
 
 ---
 
