@@ -22,6 +22,8 @@
 
 - Real PTY login shells, rendered by Ghostty on Metal.
 - Windows and tabs (⌘N / ⌘T / ⌘W), with scroll arrows when tabs overflow and an optional full-height vertical rail.
+- Quake Terminal: a dropdown terminal that slides down from the top of the screen on a global hotkey. Height, background opacity, hide-on-focus-loss, and the slide animation are set in Settings → Quake Mode.
+- Windows reopen at the position and size you left them, several at once, on every launch.
 - Tab titles show the running command with a directory prefix, and closing a tab with a live process asks first.
 - Themes from the GhosttyTheme catalog, light and dark, set globally or per tab.
 - Pinned tabs, renamed tabs, color-coded tabs.
@@ -65,7 +67,7 @@ On first launch Kuu offers to install its shell additions. They are optional and
 
 ## Configure
 
-Press ⌘, for Settings: General, Shortcuts, Appearance, and About.
+Press ⌘, for Settings: General, Shortcuts, Quake Mode, Appearance, and About.
 
 <p align="center">
   <img src="kuu-settings.png" width="516" alt="The Appearance pane in Kuu Settings">
