@@ -15,6 +15,7 @@
 <p align="center">
   <a href="https://github.com/tretten/kuu/releases/latest"><img src="https://img.shields.io/github/v/release/tretten/kuu" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/macOS-15.6%2B-blue" alt="Requires macOS 15.6 or later">
+  <a href="https://www.trymacapps.com" target="_blank" rel="noopener"><img src="https://www.trymacapps.com/badge.png" alt="Featured on TryMacApps" width="200" height="67" /></a>a>
   <img src="https://img.shields.io/badge/signed%20%26%20notarized-yes-green" alt="Signed and notarized">
 </p>
 
